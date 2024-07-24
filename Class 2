@@ -1,0 +1,81 @@
+#control statement 
+# loops/Iteration
+# Conditional statement 
+function
+#Classes
+#Project 
+''
+y = 10
+y2=10.3
+y3=7e46
+
+print(type(y))
+print(type(y2))
+print(type(y3))
+
+#Boolean
+b1 = True
+b2 = False
+
+student_list = ['adebiyi','adewunmi','aishat','leke','fortune','boluwatife']
+print (student_list[1:4])
+print (student_list[0:3])
+print (student_list[1][3:8])
+#Integer: Numbers,Float,complex 
+
+#Collection : List, Tuple, Set, Dict
+#LIST
+hl = ['parach','343','Adewumi','True','34.1',[]]
+student_list = ['adebiyi','adewunmi','aishat','leke','fortune','boluwatife']
+#print (student_list[1:4])
+#print (student_list[0:3])
+#print (student_list[1][3:8])
+student_list.reverse() # it is use to change from back to front 
+print(student_list)
+
+student_list.pop()
+print(student_list)
+
+student_list.sort()
+print(student_list)
+
+
+
+student_set = {'adebiyi','adewunmi','aishat','leke','fortune','boluwatife'}
+print (student_set)
+
+
+
+#TUPLE = IT IS USE TO IDENTIFY A VALUE THAT DOEST CHANGE
+student_Tuple = ('Adebiyi', 'Aishat','Leke','Fortune','Adewunm','Boluwatife')
+print (student_Tuple[:3])
+print (student_Tuple[:3])
+
+#Brackets/Braces
+#() - curve
+#[] - square
+#{} - curly
+#<> - angle
+
+#SET - does not have value index
+
+studernt_set={'Adebiyi', 'Aishat','Leke','Fortune','Adewunm','Boluwatife'}
+print(student_set)
+print(student_list)
+
+#for eachitem in student_list
+    # print(eachItem)
+     #print(eachItem[0:3])
+
+# Hello Adebiyi, welcome to class 
+
+student_set = ('Adebiyi', 'Aishat','Leke','Fortune','Adewunm','Boluwatife')
+
+#count()	Returns the number of elements with the specified value
+#extend()	Add the elements of a list (or any iterable), to the end of the current list
+#index()	Returns the index of the first element with the specified value
+#insert()	Adds an element at the specified position
+#pop()	Removes the element at the specified position
+#remove()	Removes the first item with the specified value
+#reverse()	Reverses the order of the list
+#sort()	Sorts the list
